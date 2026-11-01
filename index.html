@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis 20 Años - Jemima</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400;500;600&family=Pinyon+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="esti.css">
+</head>
+<body>
+
+    <div id="particles"></div>
+
+    <main class="container">
+        <!-- Tarjeta Principal con Animación de Entrada -->
+        <div class="card animate-fade-in">
+            <span class="badge">Celebración Especial</span>
+            <p class="subtitle">Estás invitado(a) a celebrar los</p>
+            
+            <h1 class="title">20 Años</h1>
+            <h2 class="name">Jemima</h2>
+
+            <div class="divider">
+                <span class="sparkle">✦</span>
+            </div>
+
+            <!-- Contador Regresivo -->
+            <div class="countdown-container">
+                <p class="countdown-title">Faltan tan solo</p>
+                <div class="countdown" id="countdown">
+                    <div class="time-box">
+                        <span id="days">00</span>
+                        <small>Días</small>
+                    </div>
+                    <div class="time-box">
+                        <span id="hours">00</span>
+                        <small>Horas</small>
+                    </div>
+                    <div class="time-box">
+                        <span id="minutes">00</span>
+                        <small>Min</small>
+                    </div>
+                    <div class="time-box">
+                        <span id="seconds">00</span>
+                        <small>Seg</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="card animate-on-scroll">
+            <h3 class="section-title">Detalles del Evento</h3>
+            
+            <div class="details-grid">
+                <div class="detail-item">
+                    <div class="icon">📅</div>
+                    <h4>Fecha</h4>
+                    <p>Lunes, 2 de Noviembre</p>
+                </div>
+
+                <div class="detail-item">
+                    <div class="icon">⏰</div>
+                    <h4>Hora</h4>
+                    <p>8:30 PM</p>
+                </div>
+
+                <div class="detail-item">
+                    <div class="icon">📍</div>
+                    <h4>Lugar</h4>
+                    <p>Buenos Milagros MZ.26 LT.30</p>
+                    <small>San Juan de Miraflores</small>
+                </div>
+
+                <div class="detail-item">
+                    <div class="icon">✨</div>
+                    <h4>Dress Code</h4>
+                    <p>Elegante Casual</p>
+                </div>
+            </div>
+
+            <a href="https://maps.app.goo.gl/dCWzVT95eEfVVe9CA" target="_blank" class="btn-location">
+                <span>📍 Ver Ubicación en Google Maps</span>
+            </a>
+        </div>
+
+        <div class="card animate-on-scroll message-card">
+            <div class="sparkle-icon">✨</div>
+            <p class="quote">
+                "Los 20 años son el comienzo de una gran etapa llena de sueños y momentos inolvidables. ¡Acompáñanos a celebrar la vida de Jemima en una noche llena de alegría y buenos momentos!"
+            </p>
+        </div>
+
+        <footer class="footer">
+            <p>Con cariño ❤️ ¡Te esperamos!</p>
+        </footer>
+    </main>
+
+    <script src="js.js"></script>
+</body>
+</html>
