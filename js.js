@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
         particle.style.left = `${Math.random() * 100}%`;
         particle.style.top = `${Math.random() * 100}%`;
         
-        // Animación aleatoria
+    
         particle.style.animationDuration = `${Math.random() * 5 + 5}s`;
         particle.style.animationDelay = `${Math.random() * 3}s`;
         
