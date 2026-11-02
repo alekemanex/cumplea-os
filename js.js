@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", () => {
         particleContainer.appendChild(particle);
     }
 
-    const targetDate = new Date("November 2, 2026 20:30:00").getTime();
+    const targetDate = new Date("November 2, 2026 19:00:00").getTime();
 
     function updateCountdown() {
         const now = new Date().getTime();
